@@ -1,0 +1,127 @@
+body{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar>a{
+    padding-left: 0%;
+    height: 10%;
+    width: 5%;
+}
+
+.logo{
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #000000ba;
+    /* sert à centrer le bandeau */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* sert à centrer le bandeau */
+    margin: 0;
+    padding: 0;
+}
+
+.ul-item{
+    height: 90%;
+    padding-left: 49%;
+}
+
+.nav-item{
+    color: #b12a5b;
+    display: inline-block;
+    text-align: center;
+    padding: 1px 16px !important;
+}
+
+.nav-item>a{
+    text-decoration: none !important;
+    color: #b12a5b;
+}
+.nav-item>a:hover{
+    color: #e72f73;
+}
+
+.content{
+    border: solid 1px black ;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.article{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px black solid;
+}
+
+.nom-droit{
+    background-image: url("https://i.pinimg.com/originals/5d/9e/62/5d9e62d6f20658e7baa09ddc989409e3.jpg");
+    opacity: 0.6;
+    width: 80%;
+    height: 100%;
+    border: solid 1px black ;
+    float: right;
+}
+
+.photo-gauche{
+    width: 24%;
+    height: 100%;
+    border: solid 1px rgb(0, 0, 0) ;
+    margin-left: 0;
+}
+
+.photo-droit{
+    width: 24%;
+    height: 100%;
+    border: solid 1px rgb(0, 0, 0) ;
+    float: left;
+}
+
+.nom-gauche{
+    background-image: url("https://i.pinimg.com/originals/5d/9e/62/5d9e62d6f20658e7baa09ddc989409e3.jpg");
+    opacity: 0.6;
+    width: 80%;
+    height: 100%;
+    border: solid 1px rgba(0, 0, 0, 0) ;
+    margin-right: 0;
+}
+
+
+
+
+.footer{
+    align-items: center;
+    display: flex;
+    background-color: black;
+    margin-top: 5%;
+    margin-bottom: 0;
+    width: 100%;
+    height: 15rem;
+}
+
+.textFoot{
+    width: 90%;
+    padding-top: 4rem;
+    color: white;
+}
+
+.logo-foot{
+    height: 7rem;
+    width: 7rem;
+    padding-top: 4rem;
+}
+
+.imgFoot{
+    height: 100%;
+}
