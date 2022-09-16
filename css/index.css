@@ -66,7 +66,11 @@ body{
     margin-top: 2rem;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.514)  ;
+    /* box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.514)  ; */
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 15px 15px #58111A;}
 }
 
 
@@ -85,5 +89,5 @@ body{
     margin-top: 2rem;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.514)  ;
+    box-shadow: 5px 5px 5px #58111A;
 }

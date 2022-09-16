@@ -6,6 +6,8 @@ body{
     text-align: center;
 }
 
+/* Navbar */
+
 .navbar>a{
     padding-left: 0%;
     height: 10%;
@@ -49,6 +51,11 @@ body{
     color: #e72f73;
 }
 
+/* Navbar */
+
+
+/* Liste article */
+
 .content{
     border: solid 1px black ;
     width: 70%;
@@ -90,16 +97,28 @@ body{
 
 .nom-gauche{
     background-image: url("https://i.pinimg.com/originals/5d/9e/62/5d9e62d6f20658e7baa09ddc989409e3.jpg");
+    border: solid 1px rgba(0, 0, 0, 0) ;
     opacity: 0.6;
     width: 80%;
     height: 100%;
-    border: solid 1px rgba(0, 0, 0, 0) ;
     margin-right: 0;
 }
 
+.nom-droit>h1{
+    color: #ff6e64;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.nom-gauche>h1{
+    color: #ff6e64;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
 
 
+/* Liste article */
 
+
+/* Footer */
 .footer{
     align-items: center;
     display: flex;
@@ -125,3 +144,5 @@ body{
 .imgFoot{
     height: 100%;
 }
+
+/* Footer */
