@@ -37,7 +37,9 @@ body{
 }
 
 .nav-item{
-    color: #b12a5b;
+    font-family: Impact, fantasy;
+    font-style: italic;
+    color: #3d98cc;  /* a garder au cas ou */
     display: inline-block;
     text-align: center;
     padding: 1px 16px !important;
@@ -45,7 +47,7 @@ body{
 
 .nav-item>a{
     text-decoration: none !important;
-    color: #b12a5b;
+    color: #ADD8E6;
 }
 .nav-item>a:hover{
     color: #e72f73;
