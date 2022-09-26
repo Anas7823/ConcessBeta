@@ -34,13 +34,12 @@ body{
 
 .ul-item{
     height: 90%;
-    padding-left: 49%;
+    padding-left: 43%;
 }
 
 .nav-item{
     font-family: Impact, fantasy;
     font-style: italic;
-    color: #3d98cc;  /* a garder au cas ou */
     display: inline-block;
     text-align: center;
     padding: 1px 16px !important;
@@ -48,7 +47,7 @@ body{
 
 .nav-item>a{
     text-decoration: none !important;
-    color: #ADD8E6;
+    color: #F9DBBD;
 }
 .nav-item>a:hover{
     color: #e72f73;

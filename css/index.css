@@ -33,7 +33,7 @@ body{
 
 .ul-item{
     height: 90%;
-    padding-left: 49%;
+    padding-left: 43%;
 }
 
 .nav-item{
@@ -47,7 +47,7 @@ body{
 
 .nav-item>a{
     text-decoration: none !important;
-    color: #ADD8E6;
+    color: #F9DBBD;
 }
 
 .nav-item>a:hover{
